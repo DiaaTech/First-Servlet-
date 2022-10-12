@@ -1,0 +1,39 @@
+body {
+  font-size: 20px;
+  margin: 30px 20px;
+  background-color: beige;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+input[type='text'] {
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px black solid;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+button {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  padding: 10px;
+  border: 1px blue solid;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
